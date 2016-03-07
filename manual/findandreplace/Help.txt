@@ -1,5 +1,1 @@
-Create package
-choco install -fdv "findandreplace.nuspec" -source "'%cd%;https://chocolatey.org/api/v2/';'$pwd'"
-
-Install package
-choco install -fdv findandreplace -source "'%cd%;https://chocolatey.org/api/v2/';'$pwd'"
+choco install -fdv "findandreplace.nuspec" -source "'%cd%;https://chocolatey.org/api/v2/';'$pwd'" -force
