@@ -13,7 +13,7 @@
     <projectSourceUrl>https://sourceforge.net/projects/findandreplace/files/findandreplace/2.0/FAR-2.0-sources.tar.gz/download</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/puddlewitt/chocolatey-packages/master/manual/findandreplace/far-logo.gif</iconUrl>
     <summary>FAR is a tool for search and replace operations over multiple files. You can apply ordinary "word by word" replacement, or choose to use fully featured regular expressions.</summary>
-    <description>* What is FAR?
+    <description># What is FAR?
 FAR is a tool for search and replace operations over multiple files. You can apply ordinary "word by word" replacement, or choose to use fully featured regular expressions.
 
 FAR automatically creates backups (unless you deselect this option) and is designed to operate on files dispersed over entire directory trees.
@@ -22,24 +22,24 @@ For your comfort you may define search strings that span multiple lines by just 
 
 FAR wants to be this application that you only need once a year - but then you badly need it.
 
-* Why so FAR?
+# Why so FAR?
 FAR has been created out of the need to change the layout of a website with hundreds of html pages. While all editors know "find and replace", and many support regular expressions, there is only a few that allows to:
 
 Change a selection of files from different directories at once.
 Allow search (and replace) patterns that span multiple lines.
 Eventually FAR seeks to be fully platform independent. Being written in Java, it runs where Java runs.
 
-* How FAR Then?
+# How FAR Then?
 Future development will be guided by user feedback and personal experience. Searching in archives is the next major milestone. The capabilities of the build in text viewer might be extended as well, but all this shall be guided by two major concerns: stability and usability.
 
-* Who is FAR?
+# Who is FAR?
 FAR has been written by Olivier Wehner. I am a Java developer and I can't help it - I have no other hobbies.</description>
     <projectUrl>http://findandreplace.sourceforge.net/</projectUrl>
     <tags>utility findandreplace far</tags>
     <copyright>Olivier Wehner</copyright>
     <licenseUrl>http://findandreplace.sourceforge.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>* 2.0 - You gotta Grep it 11-02-2016
+    <releaseNotes># 2.0 - You gotta Grep it 11-02-2016
 This release comes with a new tab, providing extraction functionality similar to the well known Grep utility. This will help you getting an overview over the content of any collection of files. And it allows you go generate condensed information from the content of spread sources. It is the second big feature I always wanted to integrate into FAR, and a huge step towards feature completion (if such thing exists). Together with the usual bugfixes and FARs ripe state it deserves a 2.0 version number. Come and grab one for yourself.</releaseNotes>
   <dependencies>
     <dependency id="javaruntime" version="8.0.66" />
