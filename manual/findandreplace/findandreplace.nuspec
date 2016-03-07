@@ -7,6 +7,10 @@
     <authors>olivierwehner</authors>
     <owners>Paul Davies</owners>
     <packageSourceUrl>https://github.com/puddlewitt/chocolatey-packages/tree/master/manual/findandreplace</packageSourceUrl>
+    <mailingListUrl>https://sourceforge.net/p/findandreplace/fartzzz/</mailingListUrl>
+    <bugTrackerUrl>https://sourceforge.net/p/findandreplace/fartzzz/</bugTrackerUrl>
+    <docsUrl>http://findandreplace.sourceforge.net/documentation/index.html</docsUrl>
+    <projectSourceUrl>https://sourceforge.net/projects/findandreplace/files/findandreplace/2.0/FAR-2.0-sources.tar.gz/download</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/puddlewitt/chocolatey-packages/master/manual/findandreplace/far-logo.gif</iconUrl>
     <summary>FAR is a tool for search and replace operations over multiple files. You can apply ordinary "word by word" replacement, or choose to use fully featured regular expressions.</summary>
     <description>* What is FAR?
