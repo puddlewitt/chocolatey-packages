@@ -1,7 +1,7 @@
 # chocolatey-packages
 
 # To Install
-`choco install findandreplace`
+```choco install findandreplace```
 
 # More information
 [findandreplace/findandreplace]
