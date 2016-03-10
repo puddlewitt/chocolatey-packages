@@ -10,5 +10,7 @@ choco install findandreplace
 
    [findandreplace]: <https://chocolatey.org/packages/findandreplace>
    
-# Built from
+# Official Release
+[Find And Replace] [findandreplaceofficial]
 
+   [findandreplaceofficial]: <http://findandreplace.sourceforge.net/
