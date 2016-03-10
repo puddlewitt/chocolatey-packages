@@ -1,5 +1,5 @@
 ﻿$packageName = 'findandreplace'
-$url = 'http://heanet.dl.sourceforge.net/project/findandreplace/findandreplace/2.0/FAR-2.0-win.zip'
+$url = 'https://sourceforge.net/projects/findandreplace/files/findandreplace/2.0/FAR-2.0-win.zip'
 $location = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 $desktop = [Environment]::GetFolderPath("Desktop")
 $shortcutFilePath = Join-Path -path $desktop -childpath 'far.lnk'
