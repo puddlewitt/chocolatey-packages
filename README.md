@@ -6,6 +6,6 @@ choco install findandreplace
 ```
 
 # More information
-[findandreplace]/findandreplace
+[findandreplace/far]
 
    [findandreplace]: <https://chocolatey.org/packages>
