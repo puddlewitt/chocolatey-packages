@@ -1,9 +1,11 @@
 # chocolatey-packages
 
 # To Install
-```choco install findandreplace```
+```powershell
+choco install findandreplace
+```
 
 # More information
-[findandreplace/findandreplace]
+[findandreplace]/findandreplace
 
    [findandreplace]: <https://chocolatey.org/packages>
