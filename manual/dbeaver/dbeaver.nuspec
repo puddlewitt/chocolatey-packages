@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dbeaver</id>
@@ -9,7 +9,7 @@
     <packageSourceUrl>https://github.com/puddlewitt/chocolatey-packages/tree/master/manual/dbeaver</packageSourceUrl>
     <docsUrl>http://dbeaver.jkiss.org/docs/</docsUrl>
     <projectSourceUrl>https://github.com/serge-rider/dbeaver</projectSourceUrl>
-    <iconUrl>https://cdn.rawgit.com/puddlewitt/chocolatey-packages/master/manual/dbeaver/splashscreen-circle.png</iconUrl>
+    <iconUrl>https://cdn.rawgit.com/puddlewitt/chocolatey-packages/master/manual/dbeaver/beaver-head.png</iconUrl>
     <summary>Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, Sybase, MongoDB, etc.</summary>
     <description># Overview
 DBeaver is free and open source (GPL 2) universal database tool for developers and database administrators.

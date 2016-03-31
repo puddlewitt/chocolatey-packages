@@ -1,11 +1,27 @@
-﻿$packageName = 'findandreplace'
-$url = 'https://sourceforge.net/projects/findandreplace/files/findandreplace/2.0/FAR-2.0-win.zip'
-$location = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$desktop = [Environment]::GetFolderPath("Desktop")
-$shortcutFilePath = Join-Path -path $desktop -childpath 'far.lnk'
-$execDir = Join-Path -path $location -childpath 'far'
-$targetPath = Join-Path -path $execDir -childpath 'far.exe'
+﻿function Build-Url {
+	params (
+		$version
+	)
 
-Install-ChocolateyZipPackage "$packageName" "$url" "$location"
+	$baseUrl = [string]::Format('http://dbeaver.jkiss.org/files/{0}/', $version)
+	$binPart = ''
 
-Install-ChocolateyShortcut -shortcutFilePath $shortcutFilePath -targetPath $targetPath -workingDirectory $execDir
+	if([Environment]::Is64BitProcess) {
+		 $binPart = [string]::Format('dbeaver-ee-{0}-x86-setup.exe', $version)
+	}
+	else {
+		 $binPart = [string]::Format('dbeaver-ee-{0}-x86_64-setup.exe', $version)
+	}
+
+	return [string]::Format('{0}{1}', $baseUrl, $binPart) 
+}
+
+function Remove-Existing {
+}
+
+function Install-Exec {
+    Remove-Existing
+	$url = Build-Url
+}
+
+Install-Exec
