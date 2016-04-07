@@ -1,8 +1,16 @@
-﻿$packageName = 'findandreplace'
-$filename = 'FAR-2.0-win.zip'
-$desktop = [Environment]::GetFolderPath("Desktop")
-$shortcutFilePath = Join-Path -path $desktop -childpath 'far.lnk'
+﻿function UnInstall-DBeaver {
+    [CmdletBinding()]
+    param (
+        $location
+    )
 
-Uninstall-ChocolateyZipPackage "$packageName" "$filename"
+    $path = (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DBeaver').UninstallString
 
-Remove-Item $shortcutFilePath
+    if($path -ne $null) {
+        Uninstall-ChocolateyPackage 'dbeaver' 'exe' '/D /S' $path -validExitCodes @(0)
+    }
+}
+
+$location = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
+
+UnInstall-DBeaver -location $location

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dbeaver</id>
-    <title>Universal Database Manager</title>
+    <title>DBeaver</title>
     <version>3.6.3</version>
     <authors>Serge Rieder,Eugene Fradkin,Denis Forveille,Alexander Fedorov,Brook.Tran,Roberto Rossi,Andrey Sukhanov</authors>
     <owners>Paul Davies</owners>
