@@ -1,0 +1,1 @@
+choco install -fdv "C:\Workspaces\Github\chocolatey-packages\manual\dbeaver\dbeaver.nuspec" -source "'%cd%;'$pwd'" -force
