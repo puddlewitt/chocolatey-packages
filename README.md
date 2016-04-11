@@ -7,8 +7,8 @@ choco install dbeaver
 ```
 
 # More information
-[Find And Replace] [findandreplace]
-[DBeaver] [dbeaver]
+- [Find And Replace] [findandreplace]
+- [DBeaver] [dbeaver]
 
    [findandreplace]: <https://chocolatey.org/packages/findandreplace>
    [dbeaver]: <http://dbeaver.jkiss.org/>
@@ -17,5 +17,5 @@ choco install dbeaver
 [Find And Replace] [findandreplaceofficial]
 [DBeaver] [dbeaverofficial]
 
-   [findandreplaceofficial]: <http://findandreplace.sourceforge.net/>
-   [dbeaverofficial]: <http://dbeaver.jkiss.org/>
+- [findandreplaceofficial]: <http://findandreplace.sourceforge.net/>
+- [dbeaverofficial]: <http://dbeaver.jkiss.org/>
