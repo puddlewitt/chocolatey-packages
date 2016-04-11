@@ -3,6 +3,7 @@
 # To Install
 ```powershell
 choco install findandreplace
+choco install dbeaver
 ```
 
 # More information
