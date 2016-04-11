@@ -14,8 +14,8 @@ choco install dbeaver
    [dbeaver]: <http://dbeaver.jkiss.org/>
    
 # Official Release
-[Find And Replace] [findandreplaceofficial]
-[DBeaver] [dbeaverofficial]
+- [Find And Replace] [findandreplaceofficial]
+- [DBeaver] [dbeaverofficial]
 
-- [findandreplaceofficial]: <http://findandreplace.sourceforge.net/>
-- [dbeaverofficial]: <http://dbeaver.jkiss.org/>
+[findandreplaceofficial]: <http://findandreplace.sourceforge.net/>
+[dbeaverofficial]: <http://dbeaver.jkiss.org/>
