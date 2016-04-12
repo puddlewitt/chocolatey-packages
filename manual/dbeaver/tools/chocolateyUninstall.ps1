@@ -1,9 +1,4 @@
 ﻿function UnInstall-DBeaver {
-    [CmdletBinding()]
-    param (
-        $location
-    )
-
     $path = (Get-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\DBeaver').UninstallString
 
     if($path -ne $null) {
@@ -11,6 +6,4 @@
     }
 }
 
-$location = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)" 
-
-UnInstall-DBeaver -location $location
+UnInstall-DBeaver
