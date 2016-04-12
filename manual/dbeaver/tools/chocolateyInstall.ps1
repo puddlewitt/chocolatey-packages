@@ -13,11 +13,6 @@
 }
 
 function Install-DBeaver {
-    [CmdletBinding()]
-    param (
-        $location
-    )
-
     $tempPackageName = 'dbeaver.exe'
     $version = $env:chocolateyPackageVersion
     $urls = Build-Url -version $version
@@ -26,6 +21,4 @@ function Install-DBeaver {
     Install-ChocolateyPackage $tempPackageName 'exe' $installArgs $urls.Url32bit $urls.Url64bit
 }
 
-$location = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-
-Install-DBeaver $location
+Install-DBeaver
