@@ -11,7 +11,7 @@ choco install dbeaver
 - [DBeaver] [dbeaver]
 
    [findandreplace]: <https://chocolatey.org/packages/findandreplace>
-   [dbeaver]: <http://dbeaver.jkiss.org/>
+   [dbeaver]: <https://chocolatey.org/packages/dbeaver>
    
 # Official Release
 - [Find And Replace] [findandreplaceofficial]
