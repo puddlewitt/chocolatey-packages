@@ -3,7 +3,7 @@
   <metadata>
     <id>dbeaver</id>
     <title>DBeaver</title>
-    <version>3.6.4</version>
+    <version>3.6.6</version>
     <authors>Serge Rieder,Eugene Fradkin,Denis Forveille,Alexander Fedorov,Brook.Tran,Roberto Rossi,Andrey Sukhanov</authors>
     <owners>Paul Davies</owners>
     <packageSourceUrl>https://github.com/puddlewitt/chocolatey-packages/tree/master/manual/dbeaver</packageSourceUrl>
@@ -45,15 +45,14 @@ DBeaver is distributed in the hope that it will be useful, but WITHOUT ANY WARRA
     <tags>utility UniversalDatabaseManager dbeaver</tags>
     <licenseUrl>http://dbeaver.jkiss.org/files/dbeaver_license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>- MySQL: database export wizard improved (+ DEFINER remove feature)
-- Oracle: metadata read performance improved
-- PostgreSQL: metadata read fixed for version before 9.x
-- PostgreSQL: temp/toast schemas access added
-- MongoDB: document update/delete fixed
-- SQLite: datetime columns read/update fixed
-- GemfireXD: driver updated
-- SQL keywords were updated
-- Misc UI bugfixes</releaseNotes>
+    <releaseNotes>- Column transformers (view numbers in a specified radix, view milliseconds as dates, etc)
+- MongoDB: editor was fixed
+- MongoDB: document renderer (JSON) was improved
+- PostgreSQL: minor metadata fixes
+- MySQL: database export was fixed
+- Apache Phoenix driver was added
+- SQL editor fixes
+- Ignore broken JDBC drivers (MySQL, MariaDB)</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
