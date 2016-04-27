@@ -10,9 +10,10 @@
     <docsUrl>http://dbeaver.jkiss.org/docs/</docsUrl>
     <projectSourceUrl>https://github.com/serge-rider/dbeaver</projectSourceUrl>
     <iconUrl>https://cdn.rawgit.com/puddlewitt/chocolatey-packages/master/manual/dbeaver/beaver-head.png</iconUrl>
+    <bugTrackerUrl>https://github.com/serge-rider/dbeaver/issues</bugTrackerUrl>
+    <mailingListUrl>http://dbeaver.jkiss.org/forum/index.php</mailingListUrl>
     <summary>Free multi-platform database tool for developers, SQL programmers, database administrators and analysts. Supports all popular databases: MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, Sybase, MongoDB, etc.</summary>
-    <description># Overview
-DBeaver is free and open source (GPL 2) universal database tool for developers and database administrators.
+    <description>DBeaver is free and open source (GPL 2) universal database tool for developers and database administrators.
 
 - Usability is the main goal of this project, program UI is carefully designed and implemented.
 - It is free and open-source (GPL).
@@ -27,20 +28,7 @@ DBeaver is free and open source (GPL 2) universal database tool for developers a
 - DBeaver consumes much less memory than other popular similar software (SQuirreL, DBVisualizer)
 - Database metadata is loaded on demand and there is no long-running “metadata caching” procedure at connect time
 - ResultSet viewer (grid) is very fast and consumes very little ammount of memory
-- All remote database operations work in non-blocking mode so DBeaver does not hang if the database server does not respond or if there is a related network issue
-
-# License
-DBeaver is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License version 2 as published by the Free Software Foundation.
-
-DBeaver is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
-
-[License full version][lfv]
-
-# Contacts
-- Technical support – support@jkiss.org
-- Technical support, feature suggestions and any other questions – serge@jkiss.org
-
-[lfv]: &lt;http://dbeaver.jkiss.org/files/dbeaver_license.txt&gt;</description>
+- All remote database operations work in non-blocking mode so DBeaver does not hang if the database server does not respond or if there is a related network issue</description>
     <projectUrl>http://dbeaver.jkiss.org/</projectUrl>
     <tags>utility UniversalDatabaseManager dbeaver</tags>
     <licenseUrl>http://dbeaver.jkiss.org/files/dbeaver_license.txt</licenseUrl>
