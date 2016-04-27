@@ -24,7 +24,7 @@
 - There is a set of plugins for certain databases (MySQL, Oracle, DB2, SQL Server, PostgreSQL, Vertica, Informix, MongoDB, Cassandra in version 3.x) and different database management utilities (e.g. ERD).
 - It has a great number of features.
 
-# Other Benefits
+### Other Benefits
 - DBeaver consumes much less memory than other popular similar software (SQuirreL, DBVisualizer)
 - Database metadata is loaded on demand and there is no long-running “metadata caching” procedure at connect time
 - ResultSet viewer (grid) is very fast and consumes very little ammount of memory
