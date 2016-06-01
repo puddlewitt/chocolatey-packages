@@ -3,7 +3,7 @@
   <metadata>
     <id>dbeaver</id>
     <title>DBeaver</title>
-    <version>3.6.6</version>
+    <version>3.6.9</version>
     <authors>Serge Rieder,Eugene Fradkin,Denis Forveille,Alexander Fedorov,Brook.Tran,Roberto Rossi,Andrey Sukhanov</authors>
     <owners>Paul Davies</owners>
     <packageSourceUrl>https://github.com/puddlewitt/chocolatey-packages/tree/master/manual/dbeaver</packageSourceUrl>
@@ -33,14 +33,20 @@
     <tags>utility UniversalDatabaseManager dbeaver</tags>
     <licenseUrl>http://dbeaver.jkiss.org/files/dbeaver_license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>- Column transformers (view numbers in a specified radix, view milliseconds as dates, etc)
-- MongoDB: editor was fixed
-- MongoDB: document renderer (JSON) was improved
-- PostgreSQL: minor metadata fixes
-- MySQL: database export was fixed
-- Apache Phoenix driver was added
-- SQL editor fixes
-- Ignore broken JDBC drivers (MySQL, MariaDB)</releaseNotes>
+    <releaseNotes>Generally it is a hotfix version but also it contains a few new features:
+- SQL completion fixed
+- Tables data export fixed
+- Grid control UI fixed
+- Arrays edit support added
+- Misc minor UI fixes
+- MySQL: index creation fixed
+- MySQL: extra keywords support
+- PostgreSQL: functions rename/delete fixed
+- PostgreSQL: functions, tables comments read/write
+- PostgreSQL: CHECK constraints
+- Cache: streams reading
+- Redis: keys navigation improved
+- Redis: commands execution in SQL editor</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
