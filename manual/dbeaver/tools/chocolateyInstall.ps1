@@ -7,8 +7,8 @@
 	$baseUrl = [string]::Format('http://dbeaver.jkiss.org/files/{0}/', $version)
 
 	return [PSCustomObject]@{
-        Url64bit=[string]::Format('{1}dbeaver-ee-{0}-x86-setup.exe', $version, $baseUrl)
-        Url32bit=[string]::Format('{1}dbeaver-ee-{0}-x86_64-setup.exe', $version, $baseUrl)
+        Url64bit=[string]::Format('{1}dbeaver-ee-{0}-x86_64-setup.exe', $version, $baseUrl)
+        Url32bit=[string]::Format('{1}dbeaver-ee-{0}-x86-setup.exe', $version, $baseUrl)
     }
 }
 

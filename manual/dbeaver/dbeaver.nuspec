@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>dbeaver</id>
     <title>DBeaver</title>
-    <version>3.6.9</version>
+    <version>3.7.0</version>
     <authors>Serge Rieder,Eugene Fradkin,Denis Forveille,Alexander Fedorov,Brook.Tran,Roberto Rossi,Andrey Sukhanov</authors>
     <owners>Paul Davies</owners>
     <packageSourceUrl>https://github.com/puddlewitt/chocolatey-packages/tree/master/manual/dbeaver</packageSourceUrl>
@@ -33,23 +33,33 @@
     <tags>utility UniversalDatabaseManager dbeaver</tags>
     <licenseUrl>http://dbeaver.jkiss.org/files/dbeaver_license.txt</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <releaseNotes>Generally it is a hotfix version but also it contains a few new features:
-- SQL completion fixed
-- Tables data export fixed
-- Grid control UI fixed
-- Arrays edit support added
-- Misc minor UI fixes
-- MySQL: index creation fixed
-- MySQL: extra keywords support
-- PostgreSQL: functions rename/delete fixed
-- PostgreSQL: functions, tables comments read/write
-- PostgreSQL: CHECK constraints
-- Cache: streams reading
-- Redis: keys navigation improved
-- Redis: commands execution in SQL editor</releaseNotes>
+    <releaseNotes>DBeaver 3.7 has been released. Main news: Redis extension, filters UI improvement and help system.
+- Context help system added
+- Filters dialog improvements (IN clause, dictionary browser)
+- Filters context menu was added (F11)
+- Multi-cell paste command was added (copy-paste from Excel, etc)
+- SQL editor + external files support improved.
+- SQL Editor auto-indent fixed
+- Row count limit usage fixed
+- Refresh connection URL on settings change (fix)
+- Saved passwords management fixed
+- Version update dialog/incremental update fixed (EE)
+- Drivers management dialog fixed
+- Results viewer: multiple bugfixes
+- MySQL: triggers create/drop fixed
+- MySQL: create procedure fixed
+- PostgreSQL: create/alter procedure fixed
+- Oracle: foreign key drop fixed
+- Oracle: BFILE type support added
+- Virtuoso: driver config added
+- CSV: driver configuration updated (maven)
+- Redis: beta version of Redis extension
+- Cassandra: InetAddress/UUID data types support, binary data type handle was fixed
+- Query manager persistence was fixed
+- A lof of minor UI fixes </releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
   </files>
 </package>
-<!-- character encoding: “UTF-8” -->
+<!-- character encoding: "UTF-8" -->
